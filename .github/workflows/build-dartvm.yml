@@ -350,7 +350,7 @@ jobs:
         run: |
           TAG="${{ github.ref_name }}"
           RELEASE_NOTES='${{ env.RELEASE_NOTES }}'
-          BASE="https://github.com/myfler/fler-dart/releases/download/$TAG"
+          BASE="https://github.com/${{ github.repository }}/releases/download/$TAG"
           cd release-assets
 
           RT_SHA=$(sha256sum fler-runtime-libs.7z | awk '{print $1}')
