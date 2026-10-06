@@ -1,1 +1,184 @@
-IyEvYmluL2Jhc2gKIyBQYXRjaCBCbHV0dGVyIGZvciBEYXJ0IDMuMTMrIGNvbXBhdGliaWxpdHkgKG1hY3JvLWd1YXJkZWQsIG5vbi1pbnZhc2l2ZSkKIyBQb3J0ZWQgZnJvbSBnZmZoZ2pmaGZqZy9mbGVyLWRhcnQgdjAuNS4xCiMKIyBEYXJ0IDMuMTMgZm91ciBicmVha2luZyBjaGFuZ2VzIChtYWNyb3MgZGVmaW5lZCBieSBTREsgaGVhZGVyIGZlYXR1cmUKIyBkZXRlY3Rpb24gaW4gYnVpbGQgc2NyaXB0IFN0ZXAgMmIpOgojICAgMS4gT2JqZWN0U3RvcmUgc3R1YiBhY2Nlc3NvcnMgcmVtb3ZlZCwgc3R1YnMgbWVyZ2VkIGludG8gU3R1YkNvZGUgKFZNIHN0dWJzKToKIyAgICAgIC0gT0JKRUNUX1NUT1JFX1NUVUJfQ09ERV9MSVNUIHJlbW92ZWQgZnJvbSB2bS9vYmplY3Rfc3RvcmUuaAojICAgICAgLSBTdHViIGVudW1zIHJlZmVyZW5jZWQgYnkgYmx1dHRlciBub3cgaGF2ZSBWTSBzdWZmaXggKEluaXRBc3luY1N0dWIg4oaSIEluaXRBc3luY1ZNU3R1YiBldGMuKQojICAgICAgLSBPYmplY3RTdG9yZTo6dGhyb3dfc3R1YigpIC8gU3R1YkNvZGU6Okhhc0JlZW5Jbml0aWFsaXplZCgpIHJlbW92ZWQKIyAgIDIuIENsb3N1cmUgcmVmYWN0b3JlZCB0byBpbmxpbmUgZWxlbWVudHMgKGNvbnRleHQgLyBkZWxheWVkX3R5cGVfYXJndW1lbnRzCiMgICAgICBmaWVsZHMgYW5kIHRoZWlyIEFPVCBvZmZzZXQgc3ltYm9scyByZW1vdmVkKQojICAgMy4gRW1iZWRkZXIgQVBJIHJlbW92ZWQgdm1fc25hcHNob3RfZGF0YSAvIHZtX3NuYXBzaG90X2luc3RydWN0aW9ucyBmaWVsZHMKIyAgICAgIGZyb20gRGFydF9Jbml0aWFsaXplUGFyYW1zCiMgICA0LiBTbmFwc2hvdCBFTEYgc3ltYm9scyB1bmlmaWVkOiA0IHN5bWJvbHMgbWVyZ2VkIGludG8gX2tEYXJ0U25hcHNob3REYXRhIC8gX2tEYXJ0U25hcHNob3RUZXh0CiMKIyBVc2FnZTogYmFzaCBwYXRjaC1kYXJ0MzEzLnNoIDxibHV0dGVyLXNyYy1kaXI+CiMgICBlLmcuIGJhc2ggcGF0Y2gtZGFydDMxMy5zaCAvdG1wL2J1aWxkL2JsdXR0ZXIvYmx1dHRlci9zcmMKc2V0IC1ldW8gcGlwZWZhaWwKCmlmIFsgJCMgLWx0IDEgXTsgdGhlbgogIGVjaG8gIlVzYWdlOiAkMCA8Ymx1dHRlci1zcmMtZGlyPiIKICBleGl0IDEKZmkKU1JDX0RJUj0iJDEiCgpweXRob24zIC0gIiRTUkNfRElSIiA8PCAnUFlFT0YnCmltcG9ydCBzeXMsIG9zCnNyYyA9IHN5cy5hcmd2WzFdCgpkZWYgbG9hZChuYW1lKToKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oc3JjLCBuYW1lKSwgZW5jb2Rpbmc9J3V0Zi04JykgYXMgZjoKICAgICAgICByZXR1cm4gZi5yZWFkKCkuc3BsaXQoJ1xuJykKCmRlZiBzYXZlKG5hbWUsIGxpbmVzKToKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oc3JjLCBuYW1lKSwgJ3cnLCBlbmNvZGluZz0ndXRmLTgnLCBuZXdsaW5lPSdcbicpIGFzIGY6CiAgICAgICAgZi53cml0ZSgnXG4nLmpvaW4obGluZXMpKQoKZGVmIGFscmVhZHkobmFtZSwgbWFya2VyKToKICAgIHJldHVybiBtYXJrZXIgaW4gJ1xuJy5qb2luKGxvYWQobmFtZSkpCgpkZWYgaW5kZW50X29mKGxpbmUpOgogICAgcmV0dXJuIGxpbmVbOmxlbihsaW5lKSAtIGxlbihsaW5lLmxzdHJpcCgnXHQnKSldCgppbXBvcnQgc3lzLCBvcwpzcmMgPSBzeXMuYXJndlsxXQpkZWYgbG9hZChuYW1lKToKICAgIHdpdGggb3Blbihvcy5wYXRoLmpvaW4oc3JjLCBuYW1lKSwgZW5jb2Rpbmc9J3V0Zi04JykgYXMgZjoKICAgICAgICByZXR1cm4gZi5yZWFkKCkuc3BsaXQoJ1xuJykKZGVmIHNhdmUobmFtZSwgbGluZXMpOgogICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihzcmMsIG5hbWUpLCAndycsIGVuY29kaW5nPSd1dGYtOCcsIG5ld2xpbmU9J1xuJykgYXMgZjoKICAgICAgICBmLndyaXRlKCdcbicuam9pbihsaW5lcykpCmRlZiBhbHJlYWR5KG5hbWUsIG1hcmtlcik6CiAgICByZXR1cm4gbWFya2VyIGluICdcbicuam9pbihsb2FkKG5hbWUpKQpkZWYgaW5kZW50X29mKGxpbmUpOgogICAgcmV0dXJuIGxpbmVbOmxlbihsaW5lKSAtIGxlbihsaW5lLmxzdHJpcCgnXHQnKSldCiMgMS4gRGFydFN0dWIuaO+8muaemuS4vuS4reeahCBPQkpFQ1RfU1RPUkVfU1RVQl9DT0RFX0xJU1Qg5Z2X5Yqg5a6I5Y2rCm5hbWUgPSAnRGFydFN0dWIuaCcKaWYgbm90IGFscmVhZHkobmFtZSwgJ05PX09CSkVDVF9TVE9SRV9TVFVCJyk6CiAgICBzID0gbG9hZChuYW1lKQogICAgaSA9IHMuaW5kZXgoJyNkZWZpbmUgRE8obWVtYmVyLCBuYW1lKSBuYW1lICMjIFN0dWIsJykKICAgIGogPSBuZXh0KGsgZm9yIGsgaW4gcmFuZ2UoaSwgbGVuKHMpKSBpZiBzW2tdLnN0YXJ0c3dpdGgoJyN1bmRlZiBETycpKQogICAgcy5pbnNlcnQoaSwgJyNpZm5kZWYgTk9fT0JKRUNUX1NUT1JFX1NUVUInKQogICAgcy5pbnNlcnQoaiArIDIsICcjZW5kaWYnKQogICAgc2F2ZShuYW1lLCBzKQogICAgcHJpbnQoJyAgRGFydFN0dWIuaDogT0JKRUNUX1NUT1JFIGVudW0gYmxvY2sgZ3VhcmRlZCcpCiMgMi4gcGNoLmjvvJrml6flrZjmoLnmnprkuL7lkI0g4oaSIFZNIOWQjue8gOWQjeWIq+WQje+8iOS7hSAzLjEzKyDnlJ/mlYjvvIkKbmFtZSA9ICdwY2guaCcKaWYgbm90IGFscmVhZHkobmFtZSwgJ05PX09CSkVDVF9TVE9SRV9TVFVCJyk6CiAgICBzID0gbG9hZChuYW1lKQogICAgaSA9IHMuaW5kZXgoJyNpZmRlZiBOT19JTklUX0xBVEVfU1RBVElDX0ZJRUxEJykKICAgIGogPSBuZXh0KGsgZm9yIGsgaW4gcmFuZ2UoaSwgbGVuKHMpKSBpZiBzW2tdLnN0YXJ0c3dpdGgoJyNlbmRpZicpKQogICAgc1tqICsgMTpqICsgMV0gPSBbCiAgICAgICAgJycsCiAgICAgICAgJy8vIGZsZXItZGFydDogRGFydCAzLjEzKyDigJQgb2JqZWN0IHN0b3JlIHN0dWJzIG1lcmdlZCBpbnRvIFZNIHN0dWJzIChyZW5hbWVkIHdpdGggVk0gc3VmZml4KScsCiAgICAgICAgJyNpZmRlZiBOT19PQkpFQ1RfU1RPUkVfU1RVQicsCiAgICAgICAgJyMgIGRlZmluZSBJbml0QXN5bmNTdHViIEluaXRBc3luY1ZNU3R1YicsCiAgICAgICAgJyMgIGRlZmluZSBEZWZhdWx0VHlwZVRlc3RTdHViIERlZmF1bHRUeXBlVGVzdFZNU3R1YicsCiAgICAgICAgJyMgIGRlZmluZSBEZWZhdWx0TnVsbGFibGVUeXBlVGVzdFN0dWIgRGVmYXVsdE51bGxhYmxlVHlwZVRlc3RWTVN0dWInLAogICAgICAgICcjICBkZWZpbmUgQWxsb2NhdGVNaW50U2hhcmVkV2l0aG91dEZQVVJlZ3NTdHViIEFsbG9jYXRlTWludFNoYXJlZFdpdGhvdXRGUFVSZWdzVk1TdHViJywKICAgICAgICAnIyAgZGVmaW5lIEFsbG9jYXRlTWludFNoYXJlZFdpdGhGUFVSZWdzU3R1YiBBbGxvY2F0ZU1pbnRTaGFyZWRXaXRoRlBVUmVnc1ZNU3R1YicsCiAgICAgICAgJyMgIGRlZmluZSBJbml0TGF0ZVN0YXRpY0ZpZWxkU3R1YiBJbml0TGF0ZVN0YXRpY0ZpZWxkVk1TdHViJywKICAgICAgICAnIyAgZGVmaW5lIEluaXRMYXRlRmluYWxTdGF0aWNGaWVsZFN0dWIgSW5pdExhdGVGaW5hbFN0YXRpY0ZpZWxkVk1TdHViJywKICAgICAgICAnIyAgZGVmaW5lIExhdGVJbml0aWFsaXphdGlvbkVycm9yU2hhcmVkV2l0aG91dEZQVVJlZ3NTdHViIExhdGVJbml0aWFsaXphdGlvbkVycm9yU2hhcmVkV2l0aG91dEZQVVJlZ3NWTVN0dWInLAogICAgICAgICcjICBkZWZpbmUgTGF0ZUluaXRpYWxpemF0aW9uRXJyb3JTaGFyZWRXaXRoRlBVUmVnc1N0dWIgTGF0ZUluaXRpYWxpemF0aW9uRXJyb3JTaGFyZWRXaXRoRlBVUmVnc1ZNU3R1YicsCiAgICAgICAgJyMgIGRlZmluZSBXcml0ZUJhcnJpZXJXcmFwcGVyc1N0dWIgV3JpdGVCYXJyaWVyV3JhcHBlcnNWTVN0dWInLAogICAgICAgICcjICBkZWZpbmUgQXJyYXlXcml0ZUJhcnJpZXJTdHViIEFycmF5V3JpdGVCYXJyaWVyVk1TdHViJywKICAgICAgICAnI2VuZGlmJywKICAgIF0KICAgIHNhdmUobmFtZSwgcykKICAgIHByaW50KCcgIHBjaC5oOiBzdHViIGtpbmQgYWxpYXNlcyBhZGRlZCcpCiMgMy4gRGFydEFwcC5jcHDvvJpsb2FkU3R1YnMg55qEIE9iamVjdFN0b3JlIOWtmOagueijhei9veWdl+WKoOWuiOWNqwpuYW1lID0gJ0RhcnRBcHAuY3BwJwppZiBub3QgYWxyZWFkeShuYW1lLCAnTk9fT0JKRUNUX1NUT1JFX1NUVUInKToKICAgIHMgPSBsb2FkKG5hbWUpCiAgICBpID0gcy5pbmRleCgnI2RlZmluZSBETyhtZW1iZXIsIG5hbWUpIFxcJykKICAgIGFzc2VydCAnc3RvcmUtPm1lbWJlcigpJyBpbiBzW2kgKyAxXSwgJ0RhcnRBcHAuY3BwOiBsb2FkU3R1YnMgRE8gYmxvY2sgbm90IGZvdW5kJwogICAgcy5pbnNlcnQoaSwgJyNpZm5kZWYgTk9fT0JKRUNUX1NUT1JFX1NUVUInKQogICAgayA9IG5leHQoeCBmb3IgeCBpbiByYW5nZShpLCBsZW4ocykpIGlmICdTdHViQ29kZTo6SGFzQmVlbkluaXRpYWxpemVkJyBpbiBzW3hdKQogICAgc1trICsgMTprICsgMV0gPSBbCiAgICAgICAgJyNlbHNlJywKICAgICAgICAnXHQvLyBmbGVyLWRhcnQ6IERhcnQgMy4xMysg4oCUIG9iamVjdCBzdG9yZSBzdHViIGFjY2Vzc29ycyByZW1vdmVkIChtZXJnZWQgaW50byBWTSBzdHVicyknLAogICAgICAgICdcdHRocm93U3R1YkFkZHIgPSBkYXJ0OjpTdHViQ29kZTo6VGhyb3coKS5FbnRyeVBvaW50KCk7JywKICAgICAgICAnI2VuZGlmJywKICAgIF0KICAgIHNhdmUobmFtZSwgcykKICAgIHByaW50KCcgIERhcnRBcHAuY3BwOiBsb2FkU3R1YnMgb2JqZWN0LXN0b3JlIGJsb2NrIGd1YXJkZWQnKQojIDQuIENvZGVBbmFseXplcl9hcm02NC5jcHDvvJpDbG9zdXJlIGNvbnRleHQgLyBkZWxheWVkIHR5cGUgYXJndW1lbnRzIOajgOa1i+WKoOWuiOWNqwpuYW1lID0gJ0NvZGVBbmFseXplcl9hcm02NC5jcHAnCmlmIG5vdCBhbHJlYWR5KG5hbWUsICdOT19DTE9TVVJFX0NPTlRFWFRfRklFTEQnKToKICAgIHMgPSBsb2FkKG5hbWUpCiAgICBpID0gbmV4dChrIGZvciBrIGluIHJhbmdlKGxlbihzKSkgaWYgJ0FPVF9DbG9zdXJlX2NvbnRleHRfb2Zmc2V0IC0gZGFydDo6a0hlYXBPYmplY3RUYWcnIGluIHNba10pCiAgICBvcmlnID0gc1tpXQogICAgc1tpOmkgKyAxXSA9IFsKICAgICAgICAnI2lmbmRlZiBOT19DTE9TVVJFX0NPTlRFWFRfRklFTEQnLAogICAgICAgIG9yaWcsCiAgICAgICAgJyNlbHNlJywKICAgICAgICBpbmRlbnRfb2Yob3JpZykgKyAnaWYgKGZhbHNlKSB7IC8vIGZsZXItZGFydDogRGFydCAzLjEzKyBDbG9zdXJlLmNvbnRleHQgcmVtb3ZlZCAoaW5saW5lIGVsZW1lbnRzKScsCiAgICAgICAgJyNlbmRpZicsCiAgICBdCiAgICBpID0gbmV4dChrIGZvciBrIGluIHJhbmdlKGxlbihzKSkgaWYgJ0FPVF9DbG9zdXJlX2RlbGF5ZWRfdHlwZV9hcmd1bWVudHNfb2Zmc2V0IC0gZGFydDo6a0hlYXBPYmplY3RUYWcnIGluIHNba10pCiAgICBvcmlnID0gc1tpXQogICAgc1tpOmkgKyAxXSA9IFsKICAgICAgICAnI2lmbmRlZiBOT19DTE9TVVJFX0NPTlRFWFRfRklFTEQnLAogICAgICAgIG9yaWcsCiAgICAgICAgJyNlbHNlJywKICAgICAgICBpbmRlbnRfb2Yob3JpZykgKyAnaWYgKGZhbHNlKSB7IC8vIGZsZXItZGFydDogRGFydCAzLjEzKyBDbG9zdXJlLmRlbGF5ZWRfdHlwZV9hcmd1bWVudHMgcmVtb3ZlZCcsCiAgICAgICAgJyNlbmRpZicsCiAgICBdCiAgICBzYXZlKG5hbWUsIHMpCiAgICBwcmludCgnICBDb2RlQW5hbHl6ZXJfYXJtNjQuY3BwOiBjbG9zdXJlIGZpZWxkIGd1YXJkcyBhZGRlZCcpCiMgNS4gRnJpZGFXcml0ZXIuY3Bw77yaY29udGV4dE9mZnNldCDovpPlh7rliqDlrojljasKbmFtZSA9ICdGcmlkYVdyaXRlci5jcHAnCmlmIG5vdCBhbHJlYWR5KG5hbWUsICdOT19DTE9TVVJFX0NPTlRFWFRfRklFTEQnKToKICAgIHMgPSBsb2FkKG5hbWUpCiAgICBpID0gbmV4dChrIGZvciBrIGluIHJhbmdlKGxlbihzKSkgaWYgJ0FPVF9DbG9zdXJlX2NvbnRleHRfb2Zmc2V0IDw8JyBpbiBzW2tdKQogICAgc1tpOmkgKyAxXSA9IFsnI2lmbmRlZiBOT19DTE9TVVJFX0NPTlRFWFRfRklFTEQnLCBzW2ldLCAnI2VuZGlmJ10KICAgIHNhdmUobmFtZSwgcykKICAgIHByaW50KCcgIEZyaWRhV3JpdGVyLmNwcDogY29udGV4dE9mZnNldCBvdXRwdXQgZ3VhcmRlZCcpCiMgNi4gRGFydExvYWRlci5jcHDvvJpEYXJ0X0luaXRpYWxpemVQYXJhbXMg55qEIHZtX3NuYXBzaG90IOWtl+auteWKoOWuiOWNqwojICAgIERhcnQgMy4xMyDotbfltYzlhaUgQVBJIOenu+mZpCB2bV9zbmFwc2hvdF9kYXRhL3ZtX3NuYXBzaG90X2luc3RydWN0aW9ucwojICAgIO+8iFZNIOW/q+eFp+S4jeWGjee7j+eUsSBEYXJ0X0luaXRpYWxpemUg5Lyg5YWl77yMaXNvbGF0ZSDlv6vnhafmjqXlj6PkuI3lj5jvvInjgIIKbmFtZSA9ICdEYXJ0TG9hZGVyLmNwcCcKaWYgbm90IGFscmVhZHkobmFtZSwgJ05PX0VNQkVEX1ZNX1NOQVBTSE9UJyk6CiAgICBzID0gbG9hZChuYW1lKQogICAgaSA9IG5leHQoayBmb3IgayBpbiByYW5nZShsZW4ocykpIGlmICdpbml0X3BhcmFtcy52bV9zbmFwc2hvdF9kYXRhJyBpbiBzW2tdKQogICAgc1tpOmkgKyAyXSA9IFsnI2lmbmRlZiBOT19FTUJFRF9WTV9TTkFQU0hPVCddICsgc1tpOmkgKyAyXSArIFsnI2VuZGlmJ10KICAgIHNhdmUobmFtZSwgcykKICAgIHByaW50KCcgIERhcnRMb2FkZXIuY3BwOiB2bV9zbmFwc2hvdCBwYXJhbXMgZ3VhcmRlZCcpCiMgNy4gRWxmSGVscGVyLmNwcO+8muW/q+eFpyBFTEYg56ym5Y+357uf5LiA5Li6IF9rRGFydFNuYXBzaG90RGF0YS9fa0RhcnRTbmFwc2hvdFRleHQKIyAgICBEYXJ0IDMuMTMg6LW3IDQg5Liq56ym5Y+377yIX2tEYXJ0Vm1TbmFwc2hvdERhdGEg562J77yJ5ZCI5bm25Li6IDIg5Liq77yMCiMgICAg57uf5LiA5b+r54Wn55u05o6l5Lyg57uZIERhcnRfQ3JlYXRlSXNvbGF0ZUdyb3Vw77yI6KeBIDMuMTMgZGFydF9hcGkuaCDmlofmoaPvvInjgIIKbmFtZSA9ICdFbGZIZWxwZXIuY3BwJwppZiBub3QgYWxyZWFkeShuYW1lLCAnTk9fU1BMSVRfU05BUFNIT1RfU1lNQk9MUycpOgogICAgcyA9IGxvYWQobmFtZSkKICAgIGkgPSBuZXh0KGsgZm9yIGsgaW4gcmFuZ2UobGVuKHMpKSBpZiAnY29uc3QgY2hhciogc19maXJzdCA9IGtWbVNuYXBzaG90RGF0YUFzbVN5bWJvbDsnIGluIHNba10pCiAgICBhc3NlcnQgJ2NvbnN0IGNoYXIqIHNfbGFzdCA9IHNfZmlyc3QgKyBzdHJsZW4oa1ZtU25hcHNob3REYXRhQXNtU3ltYm9sKScgaW4gc1tpICsgMV0KICAgIHNbaTppICsgMl0gPSBbCiAgICAgICAgJyNpZmRlZiBOT19TUExJVF9TTkFQU0hPVF9TWU1CT0xTJywKICAgICAgICAnXHRcdFx0Y29uc3QgY2hhciogc19maXJzdCA9IGtTbmFwc2hvdERhdGFBc21TeW1ib2w7JywKICAgICAgICAnXHRcdFx0Y29uc3QgY2hhciogc19sYXN0ID0gc19maXJzdCArIHN0cmxlbihrU25hcHNob3REYXRhQXNtU3ltYm9sKSArIDE7JywKICAgICAgICAnI2Vsc2UnLAogICAgICAgIHNbaV0sIHNbaSArIDFdLAogICAgICAgICcjZW5kaWYnLAogICAgXQogICAgaSA9IG5leHQoayBmb3IgayBpbiByYW5nZShsZW4ocykpIGlmICdzdHJjbXAobmFtZSwga1ZtU25hcHNob3REYXRhQXNtU3ltYm9sKScgaW4gc1trXSkKICAgIGogPSBuZXh0KGsgZm9yIGsgaW4gcmFuZ2UoaSwgbGVuKHMpKSBpZiAnaXNvbGF0ZV9zbmFwc2hvdF9pbnN0cnVjdGlvbnMgPSBlbGYgKyBkeW5zeW0tPnZhbHVlOycgaW4gc1trXSkKICAgIGJsb2NrID0gc1tpOmogKyAyXQogICAgc1tpOmogKyAyXSA9IFsnI2lmbmRlZiBOT19TUExJVF9TTkFQU0hPVF9TWU1CT0xTJ10gKyBibG9jayArIFsKICAgICAgICAnI2Vsc2UnLAogICAgICAgICdcdFx0Ly8gZmxlci1kYXJ0OiBEYXJ0IDMuMTMrIHVuaWZpZWQgc25hcHNob3QgKF9rRGFydFNuYXBzaG90RGF0YS9fa0RhcnRTbmFwc2hvdFRleHQpJywKICAgICAgICAnXHRcdGlmIChzdHJjbXAobmFtZSwga1NuYXBzaG90RGF0YUFzbVN5bWJvbCkgPT0gMCkgeycsCiAgICAgICAgJ1x0XHRcdHZtX3NuYXBzaG90X2RhdGEgPSBpc29sYXRlX3NuYXBzaG90X2RhdGEgPSBlbGYgKyBkeW5zeW0tPnZhbHVlOycsCiAgICAgICAgJ1x0XHR9JywKICAgICAgICAnXHRcdGVsc2UgaWYgKHN0cmNtcChuYW1lLCBrU25hcHNob3RUZXh0QXNtU3ltYm9sKSA9PSAwKSB7JywKICAgICAgICAnXHRcdFx0dm1fc25hcHNob3RfaW5zdHJ1Y3Rpb25zID0gaXNvbGF0ZV9zbmFwc2hvdF9pbnN0cnVjdGlvbnMgPSBlbGYgKyBkeW5zeW0tPnZhbHVlOycsCiAgICAgICAgJ1x0XHR9JywKICAgICAgICAnI2VuZGlmJywKICAgIF0KICAgIHNhdmUobmFtZSwgcykKICAgIHByaW50KCcgIEVsZkhlbHBlci5jcHA6IHVuaWZpZWQgc25hcHNob3Qgc3ltYm9scyBndWFyZGVkJykKcHJpbnQoJyAgRGFydCAzLjEzKyBjb21wYXQgcGF0Y2hlcyBhcHBsaWVkJykKUFlFT0YKZWNobyAiRGFydCAzLjEzKyBjb21wYXQgcGF0Y2hlcyBhcHBsaWVkIgo=
+#!/bin/bash
+# Patch Blutter for Dart 3.13+ compatibility (macro-guarded, non-invasive)
+# Ported from gffhgjfhfjg/fler-dart v0.5.1
+#
+# Dart 3.13 four breaking changes (macros defined by SDK header feature
+# detection in build script Step 2b):
+#   1. ObjectStore stub accessors removed, stubs merged into StubCode (VM stubs):
+#      - OBJECT_STORE_STUB_CODE_LIST removed from vm/object_store.h
+#      - Stub enums referenced by blutter now have VM suffix (InitAsyncStub → InitAsyncVMStub etc.)
+#      - ObjectStore::throw_stub() / StubCode::HasBeenInitialized() removed
+#   2. Closure refactored to inline elements (context / delayed_type_arguments
+#      fields and their AOT offset symbols removed)
+#   3. Embedder API removed vm_snapshot_data / vm_snapshot_instructions fields
+#      from Dart_InitializeParams
+#   4. Snapshot ELF symbols unified: 4 symbols merged into _kDartSnapshotData / _kDartSnapshotText
+#
+# Usage: bash patch-dart313.sh <blutter-src-dir>
+#   e.g. bash patch-dart313.sh /tmp/build/blutter/blutter/src
+set -euo pipefail
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 <blutter-src-dir>"
+  exit 1
+fi
+SRC_DIR="$1"
+
+python3 - "$SRC_DIR" << 'PYEOF'
+import sys, os
+src = sys.argv[1]
+
+def load(name):
+    with open(os.path.join(src, name), encoding='utf-8') as f:
+        return f.read().split('\n')
+
+def save(name, lines):
+    with open(os.path.join(src, name), 'w', encoding='utf-8', newline='\n') as f:
+        f.write('\n'.join(lines))
+
+def already(name, marker):
+    return marker in '\n'.join(load(name))
+
+def indent_of(line):
+    return line[:len(line) - len(line.lstrip('\t'))]
+
+import sys, os
+src = sys.argv[1]
+def load(name):
+    with open(os.path.join(src, name), encoding='utf-8') as f:
+        return f.read().split('\n')
+def save(name, lines):
+    with open(os.path.join(src, name), 'w', encoding='utf-8', newline='\n') as f:
+        f.write('\n'.join(lines))
+def already(name, marker):
+    return marker in '\n'.join(load(name))
+def indent_of(line):
+    return line[:len(line) - len(line.lstrip('\t'))]
+# 1. DartStub.h：枚举中的 OBJECT_STORE_STUB_CODE_LIST 块加守卫
+name = 'DartStub.h'
+if not already(name, 'NO_OBJECT_STORE_STUB'):
+    s = load(name)
+    i = s.index('#define DO(member, name) name ## Stub,')
+    j = next(k for k in range(i, len(s)) if s[k].startswith('#undef DO'))
+    s.insert(i, '#ifndef NO_OBJECT_STORE_STUB')
+    s.insert(j + 2, '#endif')
+    save(name, s)
+    print('  DartStub.h: OBJECT_STORE enum block guarded')
+# 2. pch.h：旧存根枚举名 → VM 后缀名别名（仅 3.13+ 生效）
+name = 'pch.h'
+if not already(name, 'NO_OBJECT_STORE_STUB'):
+    s = load(name)
+    i = s.index('#ifdef NO_INIT_LATE_STATIC_FIELD')
+    j = next(k for k in range(i, len(s)) if s[k].startswith('#endif'))
+    s[j + 1:j + 1] = [
+        '',
+        '// fler-dart: Dart 3.13+ — object store stubs merged into VM stubs (renamed with VM suffix)',
+        '#ifdef NO_OBJECT_STORE_STUB',
+        '#  define InitAsyncStub InitAsyncVMStub',
+        '#  define DefaultTypeTestStub DefaultTypeTestVMStub',
+        '#  define DefaultNullableTypeTestStub DefaultNullableTypeTestVMStub',
+        '#  define AllocateMintSharedWithoutFPURegsStub AllocateMintSharedWithoutFPURegsVMStub',
+        '#  define AllocateMintSharedWithFPURegsStub AllocateMintSharedWithFPURegsVMStub',
+        '#  define InitLateStaticFieldStub InitLateStaticFieldVMStub',
+        '#  define InitLateFinalStaticFieldStub InitLateFinalStaticFieldVMStub',
+        '#  define LateInitializationErrorSharedWithoutFPURegsStub LateInitializationErrorSharedWithoutFPURegsVMStub',
+        '#  define LateInitializationErrorSharedWithFPURegsStub LateInitializationErrorSharedWithFPURegsVMStub',
+        '#  define WriteBarrierWrappersStub WriteBarrierWrappersVMStub',
+        '#  define ArrayWriteBarrierStub ArrayWriteBarrierVMStub',
+        '#endif',
+    ]
+    save(name, s)
+    print('  pch.h: stub kind aliases added')
+# 3. DartApp.cpp：loadStubs 的 ObjectStore 存根装载块加守卫
+name = 'DartApp.cpp'
+if not already(name, 'NO_OBJECT_STORE_STUB'):
+    s = load(name)
+    i = s.index('#define DO(member, name) \\')
+    assert 'store->member()' in s[i + 1], 'DartApp.cpp: loadStubs DO block not found'
+    s.insert(i, '#ifndef NO_OBJECT_STORE_STUB')
+    k = next(x for x in range(i, len(s)) if 'StubCode::HasBeenInitialized' in s[x])
+    s[k + 1:k + 1] = [
+        '#else',
+        '\t// fler-dart: Dart 3.13+ — object store stub accessors removed (merged into VM stubs)',
+        '\tthrowStubAddr = dart::StubCode::Throw().EntryPoint();',
+        '#endif',
+    ]
+    save(name, s)
+    print('  DartApp.cpp: loadStubs object-store block guarded')
+# 4. CodeAnalyzer_arm64.cpp：Closure context / delayed type arguments 检测加守卫
+name = 'CodeAnalyzer_arm64.cpp'
+if not already(name, 'NO_CLOSURE_CONTEXT_FIELD'):
+    s = load(name)
+    i = next(k for k in range(len(s)) if 'AOT_Closure_context_offset - dart::kHeapObjectTag' in s[k])
+    orig = s[i]
+    s[i:i + 1] = [
+        '#ifndef NO_CLOSURE_CONTEXT_FIELD',
+        orig,
+        '#else',
+        indent_of(orig) + 'if (false) { // fler-dart: Dart 3.13+ Closure.context removed (inline elements)',
+        '#endif',
+    ]
+    i = next(k for k in range(len(s)) if 'AOT_Closure_delayed_type_arguments_offset - dart::kHeapObjectTag' in s[k])
+    orig = s[i]
+    s[i:i + 1] = [
+        '#ifndef NO_CLOSURE_CONTEXT_FIELD',
+        orig,
+        '#else',
+        indent_of(orig) + 'if (false) { // fler-dart: Dart 3.13+ Closure.delayed_type_arguments removed',
+        '#endif',
+    ]
+    save(name, s)
+    print('  CodeAnalyzer_arm64.cpp: closure field guards added')
+# 5. FridaWriter.cpp：contextOffset 输出加守卫
+name = 'FridaWriter.cpp'
+if not already(name, 'NO_CLOSURE_CONTEXT_FIELD'):
+    s = load(name)
+    i = next(k for k in range(len(s)) if 'AOT_Closure_context_offset <<' in s[k])
+    s[i:i + 1] = ['#ifndef NO_CLOSURE_CONTEXT_FIELD', s[i], '#endif']
+    save(name, s)
+    print('  FridaWriter.cpp: contextOffset output guarded')
+# 6. DartLoader.cpp：Dart_InitializeParams 的 vm_snapshot 字段加守卫
+#    Dart 3.13 起嵌入 API 移除 vm_snapshot_data/vm_snapshot_instructions
+#    （VM 快照不再经由 Dart_Initialize 传入，isolate 快照接口不变）。
+name = 'DartLoader.cpp'
+if not already(name, 'NO_EMBED_VM_SNAPSHOT'):
+    s = load(name)
+    i = next(k for k in range(len(s)) if 'init_params.vm_snapshot_data' in s[k])
+    s[i:i + 2] = ['#ifndef NO_EMBED_VM_SNAPSHOT'] + s[i:i + 2] + ['#endif']
+    save(name, s)
+    print('  DartLoader.cpp: vm_snapshot params guarded')
+# 7. ElfHelper.cpp：快照 ELF 符号统一为 _kDartSnapshotData/_kDartSnapshotText
+#    Dart 3.13 起 4 个符号（_kDartVmSnapshotData 等）合并为 2 个，
+#    统一快照直接传给 Dart_CreateIsolateGroup（见 3.13 dart_api.h 文档）。
+name = 'ElfHelper.cpp'
+if not already(name, 'NO_SPLIT_SNAPSHOT_SYMBOLS'):
+    s = load(name)
+    i = next(k for k in range(len(s)) if 'const char* s_first = kVmSnapshotDataAsmSymbol;' in s[k])
+    assert 'const char* s_last = s_first + strlen(kVmSnapshotDataAsmSymbol)' in s[i + 1]
+    s[i:i + 2] = [
+        '#ifdef NO_SPLIT_SNAPSHOT_SYMBOLS',
+        '\t\t\tconst char* s_first = kSnapshotDataAsmSymbol;',
+        '\t\t\tconst char* s_last = s_first + strlen(kSnapshotDataAsmSymbol) + 1;',
+        '#else',
+        s[i], s[i + 1],
+        '#endif',
+    ]
+    i = next(k for k in range(len(s)) if 'strcmp(name, kVmSnapshotDataAsmSymbol)' in s[k])
+    j = next(k for k in range(i, len(s)) if 'isolate_snapshot_instructions = elf + dynsym->value;' in s[k])
+    block = s[i:j + 2]
+    s[i:j + 2] = ['#ifndef NO_SPLIT_SNAPSHOT_SYMBOLS'] + block + [
+        '#else',
+        '\t\t// fler-dart: Dart 3.13+ unified snapshot (_kDartSnapshotData/_kDartSnapshotText)',
+        '\t\tif (strcmp(name, kSnapshotDataAsmSymbol) == 0) {',
+        '\t\t\tvm_snapshot_data = isolate_snapshot_data = elf + dynsym->value;',
+        '\t\t}',
+        '\t\telse if (strcmp(name, kSnapshotTextAsmSymbol) == 0) {',
+        '\t\t\tvm_snapshot_instructions = isolate_snapshot_instructions = elf + dynsym->value;',
+        '\t\t}',
+        '#endif',
+    ]
+    save(name, s)
+    print('  ElfHelper.cpp: unified snapshot symbols guarded')
+print('  Dart 3.13+ compat patches applied')
+PYEOF
+echo "Dart 3.13+ compat patches applied"
