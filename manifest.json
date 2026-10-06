@@ -1,11 +1,243 @@
 {
-  "packVersion": "v0.5.2",
-  "releaseNotes": "v0.4.5：引擎数据修复——恢复完整 Blutter 产物（pp/objs/asm/ida_script/blutter_frida.js）；修复 DB 导出（strings 31195、方法名消除 anonymous closure、pp 类型正确拆分）；新增 objs 索引与 enum_map 直写 DB；objs.field_hint 摘要；FridaWriter 模板缺失不再崩溃。",
+  "packVersion": "0.5.3",
+  "releaseNotes": "fork mirror pack v0.5.3：在 upstream v0.5.2 的 32 个引擎基础上，新增 Dart 3.13.4 引擎（dartvm-3.13.4.7z）。3.13.x 通过 scripts/patch-dart313.sh + Step 2b 头文件特征检测适配：ObjectStore 存根并入 StubCode、Closure 内联 elements、嵌入 API 移除 vm_snapshot_data/vm_snapshot_instructions、快照符号统一为 _kDartSnapshotData/_kDartSnapshotText。32 个旧引擎为 upstream 逐字节校验后的镜像（checksums.txt 覆盖全部 34 个归档）。",
   "runtimeLibs": {
     "file": "fler-runtime-libs.7z",
-    "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/fler-runtime-libs.7z",
+    "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/fler-runtime-libs.7z",
     "sha256": "ebfeb6096f3ef00c35472e3fea6b902b837ed38d062e281d6ee772c2db0cfdfa",
     "sizeBytes": 345624
   },
-  "engines": [ { "dartVersion": "2.18.6", "file": "dartvm-2.18.6.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-2.18.6.7z", "sha256": "e0c62995a28a914312b841e7e8f6eaaf5e0fd6d3f7122df4e15ed3c623fafba9", "sizeBytes": 1665982 }, { "dartVersion": "3.10.0", "file": "dartvm-3.10.0.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.0.7z", "sha256": "409081eb24810b804160128929ede9b1b4c16cf6a664ef419af4c88d1fa33e7e", "sizeBytes": 1682144 }, { "dartVersion": "3.10.1", "file": "dartvm-3.10.1.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.1.7z", "sha256": "ca05d724b263784fb919af10828b0d193dcfc1e9673a4c1775ac2aa855623a2a", "sizeBytes": 1683285 }, { "dartVersion": "3.10.2", "file": "dartvm-3.10.2.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.2.7z", "sha256": "a720ae49b32f9eeee7a1b5afb84f0794a4662ef099f21ec6bea24310daba4e28", "sizeBytes": 1688589 }, { "dartVersion": "3.10.3", "file": "dartvm-3.10.3.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.3.7z", "sha256": "40629ecb455298c02fb0dc8b8534386328fd24687c19e69e0b2ea08746928619", "sizeBytes": 1683099 }, { "dartVersion": "3.10.4", "file": "dartvm-3.10.4.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.4.7z", "sha256": "7ebfe335c0f5236557cc80db795d799136c7f133c79226e1c4fdafd7ae5c2ea4", "sizeBytes": 1682194 }, { "dartVersion": "3.10.5", "file": "dartvm-3.10.5.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.5.7z", "sha256": "f0b209c24714591dc4e3efbf2b23a2c1b33975b7fa8a4d2400533046ed9a6370", "sizeBytes": 1681407 }, { "dartVersion": "3.10.6", "file": "dartvm-3.10.6.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.6.7z", "sha256": "55966d0546c4df9e7111b2b22d1ae902d80fae26365f77cecd5b6de2b4bdfd9e", "sizeBytes": 1680657 }, { "dartVersion": "3.10.7", "file": "dartvm-3.10.7.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.7.7z", "sha256": "60cc6f2cb6cc1e4a1ffbb9aeb6a637b4c0a440da26fab958693c454fd8198f45", "sizeBytes": 1683755 }, { "dartVersion": "3.10.8", "file": "dartvm-3.10.8.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.8.7z", "sha256": "81a403bdc18da66130898d414a83b49c76b6a3bb0561633956b9bf50235c4af9", "sizeBytes": 1683056 }, { "dartVersion": "3.10.9", "file": "dartvm-3.10.9.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.10.9.7z", "sha256": "15c6623677f87f81ed04c06b6a3c79fb52af87c68c75ecb23fcaf46f189c1e63", "sizeBytes": 1681537 }, { "dartVersion": "3.11.0", "file": "dartvm-3.11.0.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.0.7z", "sha256": "a324736c00f73a4706904f79ccadc740799e8d7541a9fae0219c3b242f3a6512", "sizeBytes": 1693086 }, { "dartVersion": "3.11.1", "file": "dartvm-3.11.1.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.1.7z", "sha256": "eaffc64006ff9d76ab872be72d921daff547e6da707d4c40be218f0e7d0f4776", "sizeBytes": 1692000 }, { "dartVersion": "3.11.2", "file": "dartvm-3.11.2.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.2.7z", "sha256": "72f0964fa54c1c6ada0fd9a4039031b468015cc3eed95398147f324823087b5e", "sizeBytes": 1685248 }, { "dartVersion": "3.11.3", "file": "dartvm-3.11.3.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.3.7z", "sha256": "c7a4b51c6b08207098cddf22965b7c1ec12cf5bfe9efdc54b5b21b092a1d2919", "sizeBytes": 1691857 }, { "dartVersion": "3.11.4", "file": "dartvm-3.11.4.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.4.7z", "sha256": "21bec7bd8dfbf391c4a8d15c5db1f7e6db54eecbf235603781b799991fcef635", "sizeBytes": 1685265 }, { "dartVersion": "3.11.5", "file": "dartvm-3.11.5.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.5.7z", "sha256": "4ef500b81a4aa60be4037055974bcbc60572eb22ae53ff87192be4306f371fa2", "sizeBytes": 1684751 }, { "dartVersion": "3.11.6", "file": "dartvm-3.11.6.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.11.6.7z", "sha256": "9d12e3037721fdf15f4b3b784e1b162e1835ff70c2eb6ac8f7f092bf3b15f4e2", "sizeBytes": 1684545 }, { "dartVersion": "3.12.0", "file": "dartvm-3.12.0.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.12.0.7z", "sha256": "fd133989096d2186c1e8acdd2dc31fab8d6662705b77a208019700f9f765d0f1", "sizeBytes": 1706807 }, { "dartVersion": "3.12.1", "file": "dartvm-3.12.1.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.12.1.7z", "sha256": "afb70128355e3fa2c8b332ef152a4c4487e1ecf99aef0b0c99542fa9bab46a50", "sizeBytes": 1704280 }, { "dartVersion": "3.12.2", "file": "dartvm-3.12.2.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.12.2.7z", "sha256": "6a10c8ce7ea0584ad804cc1e3a1711c858378e3eb339b623dd9a9342f38302a6", "sizeBytes": 1704987 }, { "dartVersion": "3.2.3", "file": "dartvm-3.2.3.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.2.3.7z", "sha256": "0357161480b0fdea151ee70abc1e2fb366a7bddf265c647bbd0f008791a54561", "sizeBytes": 1681864 }, { "dartVersion": "3.3.4", "file": "dartvm-3.3.4.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.3.4.7z", "sha256": "b87b761cb85d12b70f0ec9f1bbe3217a762791bba362bc9c376027924a032f86", "sizeBytes": 1690168 }, { "dartVersion": "3.8.0", "file": "dartvm-3.8.0.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.8.0.7z", "sha256": "545252971612492754e50fea4bcc20b9dd3805ea1a5602d06923bd8d13eef1ea", "sizeBytes": 1701540 }, { "dartVersion": "3.8.1", "file": "dartvm-3.8.1.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.8.1.7z", "sha256": "97310913e7629ecb9c60e24ae05323490c285455ca9d54b36027128437feb183", "sizeBytes": 1695509 }, { "dartVersion": "3.8.2", "file": "dartvm-3.8.2.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.8.2.7z", "sha256": "dad6d7af1b720c1bf1c28bbfe4c97563479734b18a4d4db491e0ec87b09d2cb5", "sizeBytes": 1702996 }, { "dartVersion": "3.8.3", "file": "dartvm-3.8.3.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.8.3.7z", "sha256": "b18ca6039bfcfebfc1c0d2a28413c8eac4c16d26e98387abc8929714c75973e5", "sizeBytes": 1702334 }, { "dartVersion": "3.9.0", "file": "dartvm-3.9.0.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.9.0.7z", "sha256": "5ba46185879a051eadd835925d2603fc311670f32e93b618b6084f3efe936f20", "sizeBytes": 1689714 }, { "dartVersion": "3.9.1", "file": "dartvm-3.9.1.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.9.1.7z", "sha256": "3132313e3414e100bebe427bba2cbb82679da2af5c2d5484256f886b54dc052c", "sizeBytes": 1690061 }, { "dartVersion": "3.9.2", "file": "dartvm-3.9.2.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.9.2.7z", "sha256": "97dc8b3247499532187aa80b9dbb1deac74cc539348678271341b9772ad4f8b6", "sizeBytes": 1691910 }, { "dartVersion": "3.9.3", "file": "dartvm-3.9.3.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.9.3.7z", "sha256": "74b0ef65af385c54b219dacc2a94173813b204a697aa69553925e178c178dd77", "sizeBytes": 1686129 }, { "dartVersion": "3.9.4", "file": "dartvm-3.9.4.7z", "url": "https://github.com/lovescxs/fler-dart/releases/download/v0.5.2/dartvm-3.9.4.7z", "sha256": "873293a36de8101f65910d2682c33f3b190dab354257c7b7f412c999e86ec5b7", "sizeBytes": 1692084 }]
+  "engines": [
+    {
+      "dartVersion": "2.18.6",
+      "file": "dartvm-2.18.6.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-2.18.6.7z",
+      "sha256": "e0c62995a28a914312b841e7e8f6eaaf5e0fd6d3f7122df4e15ed3c623fafba9",
+      "sizeBytes": 1665982
+    },
+    {
+      "dartVersion": "3.10.0",
+      "file": "dartvm-3.10.0.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.0.7z",
+      "sha256": "409081eb24810b804160128929ede9b1b4c16cf6a664ef419af4c88d1fa33e7e",
+      "sizeBytes": 1682144
+    },
+    {
+      "dartVersion": "3.10.1",
+      "file": "dartvm-3.10.1.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.1.7z",
+      "sha256": "ca05d724b263784fb919af10828b0d193dcfc1e9673a4c1775ac2aa855623a2a",
+      "sizeBytes": 1683285
+    },
+    {
+      "dartVersion": "3.10.2",
+      "file": "dartvm-3.10.2.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.2.7z",
+      "sha256": "a720ae49b32f9eeee7a1b5afb84f0794a4662ef099f21ec6bea24310daba4e28",
+      "sizeBytes": 1688589
+    },
+    {
+      "dartVersion": "3.10.3",
+      "file": "dartvm-3.10.3.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.3.7z",
+      "sha256": "40629ecb455298c02fb0dc8b8534386328fd24687c19e69e0b2ea08746928619",
+      "sizeBytes": 1683099
+    },
+    {
+      "dartVersion": "3.10.4",
+      "file": "dartvm-3.10.4.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.4.7z",
+      "sha256": "7ebfe335c0f5236557cc80db795d799136c7f133c79226e1c4fdafd7ae5c2ea4",
+      "sizeBytes": 1682194
+    },
+    {
+      "dartVersion": "3.10.5",
+      "file": "dartvm-3.10.5.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.5.7z",
+      "sha256": "f0b209c24714591dc4e3efbf2b23a2c1b33975b7fa8a4d2400533046ed9a6370",
+      "sizeBytes": 1681407
+    },
+    {
+      "dartVersion": "3.10.6",
+      "file": "dartvm-3.10.6.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.6.7z",
+      "sha256": "55966d0546c4df9e7111b2b22d1ae902d80fae26365f77cecd5b6de2b4bdfd9e",
+      "sizeBytes": 1680657
+    },
+    {
+      "dartVersion": "3.10.7",
+      "file": "dartvm-3.10.7.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.7.7z",
+      "sha256": "60cc6f2cb6cc1e4a1ffbb9aeb6a637b4c0a440da26fab958693c454fd8198f45",
+      "sizeBytes": 1683755
+    },
+    {
+      "dartVersion": "3.10.8",
+      "file": "dartvm-3.10.8.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.8.7z",
+      "sha256": "81a403bdc18da66130898d414a83b49c76b6a3bb0561633956b9bf50235c4af9",
+      "sizeBytes": 1683056
+    },
+    {
+      "dartVersion": "3.10.9",
+      "file": "dartvm-3.10.9.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.10.9.7z",
+      "sha256": "15c6623677f87f81ed04c06b6a3c79fb52af87c68c75ecb23fcaf46f189c1e63",
+      "sizeBytes": 1681537
+    },
+    {
+      "dartVersion": "3.11.0",
+      "file": "dartvm-3.11.0.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.0.7z",
+      "sha256": "a324736c00f73a4706904f79ccadc740799e8d7541a9fae0219c3b242f3a6512",
+      "sizeBytes": 1693086
+    },
+    {
+      "dartVersion": "3.11.1",
+      "file": "dartvm-3.11.1.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.1.7z",
+      "sha256": "eaffc64006ff9d76ab872be72d921daff547e6da707d4c40be218f0e7d0f4776",
+      "sizeBytes": 1692000
+    },
+    {
+      "dartVersion": "3.11.2",
+      "file": "dartvm-3.11.2.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.2.7z",
+      "sha256": "72f0964fa54c1c6ada0fd9a4039031b468015cc3eed95398147f324823087b5e",
+      "sizeBytes": 1685248
+    },
+    {
+      "dartVersion": "3.11.3",
+      "file": "dartvm-3.11.3.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.3.7z",
+      "sha256": "c7a4b51c6b08207098cddf22965b7c1ec12cf5bfe9efdc54b5b21b092a1d2919",
+      "sizeBytes": 1691857
+    },
+    {
+      "dartVersion": "3.11.4",
+      "file": "dartvm-3.11.4.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.4.7z",
+      "sha256": "21bec7bd8dfbf391c4a8d15c5db1f7e6db54eecbf235603781b799991fcef635",
+      "sizeBytes": 1685265
+    },
+    {
+      "dartVersion": "3.11.5",
+      "file": "dartvm-3.11.5.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.5.7z",
+      "sha256": "4ef500b81a4aa60be4037055974bcbc60572eb22ae53ff87192be4306f371fa2",
+      "sizeBytes": 1684751
+    },
+    {
+      "dartVersion": "3.11.6",
+      "file": "dartvm-3.11.6.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.11.6.7z",
+      "sha256": "9d12e3037721fdf15f4b3b784e1b162e1835ff70c2eb6ac8f7f092bf3b15f4e2",
+      "sizeBytes": 1684545
+    },
+    {
+      "dartVersion": "3.12.0",
+      "file": "dartvm-3.12.0.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.12.0.7z",
+      "sha256": "fd133989096d2186c1e8acdd2dc31fab8d6662705b77a208019700f9f765d0f1",
+      "sizeBytes": 1706807
+    },
+    {
+      "dartVersion": "3.12.1",
+      "file": "dartvm-3.12.1.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.12.1.7z",
+      "sha256": "afb70128355e3fa2c8b332ef152a4c4487e1ecf99aef0b0c99542fa9bab46a50",
+      "sizeBytes": 1704280
+    },
+    {
+      "dartVersion": "3.12.2",
+      "file": "dartvm-3.12.2.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.12.2.7z",
+      "sha256": "6a10c8ce7ea0584ad804cc1e3a1711c858378e3eb339b623dd9a9342f38302a6",
+      "sizeBytes": 1704987
+    },
+    {
+      "dartVersion": "3.13.4",
+      "file": "dartvm-3.13.4.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.13.4.7z",
+      "sha256": "95556d1522dbc5bb39ec471b8b9c1f4972213552c799be6a7c5bfae08e4f22f7",
+      "sizeBytes": 1693667
+    },
+    {
+      "dartVersion": "3.2.3",
+      "file": "dartvm-3.2.3.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.2.3.7z",
+      "sha256": "0357161480b0fdea151ee70abc1e2fb366a7bddf265c647bbd0f008791a54561",
+      "sizeBytes": 1681864
+    },
+    {
+      "dartVersion": "3.3.4",
+      "file": "dartvm-3.3.4.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.3.4.7z",
+      "sha256": "b87b761cb85d12b70f0ec9f1bbe3217a762791bba362bc9c376027924a032f86",
+      "sizeBytes": 1690168
+    },
+    {
+      "dartVersion": "3.8.0",
+      "file": "dartvm-3.8.0.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.8.0.7z",
+      "sha256": "545252971612492754e50fea4bcc20b9dd3805ea1a5602d06923bd8d13eef1ea",
+      "sizeBytes": 1701540
+    },
+    {
+      "dartVersion": "3.8.1",
+      "file": "dartvm-3.8.1.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.8.1.7z",
+      "sha256": "97310913e7629ecb9c60e24ae05323490c285455ca9d54b36027128437feb183",
+      "sizeBytes": 1695509
+    },
+    {
+      "dartVersion": "3.8.2",
+      "file": "dartvm-3.8.2.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.8.2.7z",
+      "sha256": "dad6d7af1b720c1bf1c28bbfe4c97563479734b18a4d4db491e0ec87b09d2cb5",
+      "sizeBytes": 1702996
+    },
+    {
+      "dartVersion": "3.8.3",
+      "file": "dartvm-3.8.3.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.8.3.7z",
+      "sha256": "b18ca6039bfcfebfc1c0d2a28413c8eac4c16d26e98387abc8929714c75973e5",
+      "sizeBytes": 1702334
+    },
+    {
+      "dartVersion": "3.9.0",
+      "file": "dartvm-3.9.0.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.9.0.7z",
+      "sha256": "5ba46185879a051eadd835925d2603fc311670f32e93b618b6084f3efe936f20",
+      "sizeBytes": 1689714
+    },
+    {
+      "dartVersion": "3.9.1",
+      "file": "dartvm-3.9.1.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.9.1.7z",
+      "sha256": "3132313e3414e100bebe427bba2cbb82679da2af5c2d5484256f886b54dc052c",
+      "sizeBytes": 1690061
+    },
+    {
+      "dartVersion": "3.9.2",
+      "file": "dartvm-3.9.2.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.9.2.7z",
+      "sha256": "97dc8b3247499532187aa80b9dbb1deac74cc539348678271341b9772ad4f8b6",
+      "sizeBytes": 1691910
+    },
+    {
+      "dartVersion": "3.9.3",
+      "file": "dartvm-3.9.3.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.9.3.7z",
+      "sha256": "74b0ef65af385c54b219dacc2a94173813b204a697aa69553925e178c178dd77",
+      "sizeBytes": 1686129
+    },
+    {
+      "dartVersion": "3.9.4",
+      "file": "dartvm-3.9.4.7z",
+      "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.9.4.7z",
+      "sha256": "873293a36de8101f65910d2682c33f3b190dab354257c7b7f412c999e86ec5b7",
+      "sizeBytes": 1692084
+    }
+  ]
 }
