@@ -1,5 +1,5 @@
 {
-  "version": "0.5.3",
+  "version": "0.5.4",
   "dartVersions": [
     "3.13.4",
     "3.12.2",
@@ -35,7 +35,7 @@
     "3.2.3",
     "2.18.6"
   ],
-  "sizeBytes": 56092131,
+  "sizeBytes": 56093064,
   "releaseNotes": "v0.4.5：引擎数据修复——恢复完整 Blutter 产物（pp/objs/asm/ida_script/blutter_frida.js）；修复 DB 导出（strings 31195、方法名消除 <anonymous closure>、pp 类型正确拆分）；新增 objs 索引与 enum_map 直写 DB；objs.field_hint 摘要；FridaWriter 模板缺失不再崩溃。",
   "downloadUrl": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/fler-runtime-libs.7z",
   "checksumUrl": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/checksums.txt"

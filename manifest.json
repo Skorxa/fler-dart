@@ -1,6 +1,6 @@
 {
-  "packVersion": "0.5.3",
-  "releaseNotes": "fork mirror pack v0.5.3：在 upstream v0.5.2 的 32 个引擎基础上，新增 Dart 3.13.4 引擎（dartvm-3.13.4.7z）。3.13.x 通过 scripts/patch-dart313.sh + Step 2b 头文件特征检测适配：ObjectStore 存根并入 StubCode、Closure 内联 elements、嵌入 API 移除 vm_snapshot_data/vm_snapshot_instructions、快照符号统一为 _kDartSnapshotData/_kDartSnapshotText。32 个旧引擎为 upstream 逐字节校验后的镜像（checksums.txt 覆盖全部 34 个归档）。",
+  "packVersion": "0.5.4",
+  "releaseNotes": "fork mirror pack v0.5.4：重建 Dart 3.13.4 引擎，修复 blutter 在 3.13.x 快照上的两处问题——(1) DartLoader 的 Dart_SetVMFlags/Dart_Initialize 改为幂等，避免一次 abort 之后同进程内所有分析秒失败在 \"Flags already set\"(-2)，不再掩盖真实错误；(2) DartTypeDb::FindOrAdd(AbstractTypePtr) 遇到未知类型 cid 不再 FATAL abort(-997)，改为记录 cid 并降级为 dynamic。其余 32 个引擎与 upstream v0.5.2 逐字节一致。",
   "runtimeLibs": {
     "file": "fler-runtime-libs.7z",
     "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/fler-runtime-libs.7z",
@@ -159,8 +159,8 @@
       "dartVersion": "3.13.4",
       "file": "dartvm-3.13.4.7z",
       "url": "https://github.com/Skorxa/fler-dart/releases/download/0.5.3/dartvm-3.13.4.7z",
-      "sha256": "95556d1522dbc5bb39ec471b8b9c1f4972213552c799be6a7c5bfae08e4f22f7",
-      "sizeBytes": 1693667
+      "sha256": "f84267b430895b1304596d046a5361b53fee82909ba4cb48ee7b6d5eef827975",
+      "sizeBytes": 1694600
     },
     {
       "dartVersion": "3.2.3",
